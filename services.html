@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        nav .signup {
+            background-color: #28a745;
+            color: white;
+        }
+        nav .signin {
+            background-color: #6c757d;
+            color: white;
+        }
+        .services-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #000;
+            color: white;
+        }
+        .services-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 250px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .service-card img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .service-card h3 {
+            margin: 15px 0 10px;
+        }
+        .service-card p {
+            color: #666;
+            padding: 0 10px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>Logo</h2>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="signup">Sign up</button>
+            <button class="signin">Sign in</button>
+        </nav>
+    </header>
+
+    <section class="services-section">
+        <h2>Our Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="images/cons.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo</p>
+            </div>
+            <div class="service-card">
+                <img src="image/cusom.jpg" alt="IT Consulting">
+                <h3>IT Consulting</h3>
+                <p>Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo</p>
+            </div>
+            <div class="service-card">
+                <img src="image (1).jpg" alt="Custom Software Solutions">
+                <h3>Custom Software Solutions</h3>
+                <p>Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
